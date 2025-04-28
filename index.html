@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>COMP126 Final Assignment</title>
+        <meta name="author" content="Adtile">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/responsive-nav.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+        <div class="head">
+            <img class="logo" src='../images/logo.png' alt="logo"> 
+            <div class="grillchill">Grill n Chill</div>
+        </div>
+
+        <nav>
+            <div class="container">
+            <a href="index.html" class="item item--1">Home</a>
+            <a href="menu.html" class="item item--2">Menu</a>
+            <a href="contact.html" class="item item--3">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="deal">
+        <div class="free">
+            <h1>FREE</h1>
+            <h2>$5 GIFT CARD</h2>
+            <h3>With a purchase over $30</h3>
+            <a href="menu.html" class="button-1">MENU</a>
+        </div>
+        </div>
+
+
+        <div class="rest">
+        <div class="rest-item rest-item--1">
+            <div class="rest-item--1--1">
+            <h4>Menu</h4>
+            <h5>BRING ON THE BURGERS</h5>
+            </div>
+            <div class="rest-item--1--2">
+            <div class="cheeseburger"></div>
+            <h6>Cheese Burger</h6>
+            </div>
+
+            <div class="rest-item--1--3">
+            <div class="bbq"></div>
+            <h6>BBQ Burger</h6>
+            </div>
+
+            <div class="rest-item--1--4">
+            <div class="grilledcheese"></div>
+            <h6>Grilled Cheese</h6>
+            </div>
+
+            <div class="rest-item--1--5">
+            <div class="sodaglass"></div>
+            <h6>Drinks</h6>
+            </div>
+
+            <div class="rest-item--1--6">
+            <a href="menu.html" class="button-2">MENU</a>
+
+            </div>
+
+        </div>
+
+        <div class="rest-item rest-item--2">
+            <div class="stackedburger"></div>
+            <h4>CATERING</h4>
+            <h5>FOR EVERYONE</h5>
+            <h6>Looking to impress your boss? Looking to dazzle your in-laws? We have food for groups of all shapes and sizes.</h6>
+            <a href="contact.html" class="button-2">CONTACT US</a>
+        </div>
+
+        <div class="rest-item rest-item--3">
+            <div class="grillburger"></div>
+            <h4>REWARDS PROGRAM</h4>
+            <h5>BE A MEMBER, GET REWARDED</h5>
+            <h6>Text Burger to 64631</h6>
+        </div>
+
+        <div class="rest-item rest-item--4">
+            <div class="location"></div>
+
+            <form id="SubscribeForm" action="/" method="post">
+            <h2>Find a location near you!</h2>
+            
+            <fieldset class="form">
+                <label for="location">Enter location here:</label>
+            
+                <input type="text" id="location" name="user_location" value="" required>
+
+                <button class="button-3" type="submit">
+                SUBMIT
+                </button>
+            </fieldset>
+            </form>
+
+            <script>
+                document.getElementById('SubscribeForm').addEventListener('submit', function(event) {
+                event.preventDefault(); 
+                this.reset();
+                });
+            </script>
+        </div>
+        </div>
+
+    </main>
+
+    <footer class="foot">
+    <div class="footer-item footer-item--1">&copy; 2025 Grill n Chill. All rights reserved.</div>
+    </footer>
+    </body>

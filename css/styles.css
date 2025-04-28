@@ -1,0 +1,1237 @@
+            * {
+                border: 0px;
+                padding: 0px;
+                margin: 0px;
+                font-family: "Space Grotesk", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+            }
+
+            .head {
+                background-color: rgb(255, 255, 255);
+                height: 150px;
+                display: flex;
+                align-items: center;
+                }
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                width: 100%;
+                }
+
+            .item {
+                display: flex;
+                padding: 20px;
+                height: 50px;
+                align-items: center;
+                justify-content: center;
+                background-color: #000000;
+                color: white;
+                font-weight: 800;
+                font-size: 2rem;
+                border-top: 6px solid black;
+                border-bottom: 6px solid black;
+                text-decoration: none;
+            }
+
+                .item--1{
+                    border-right: 6px solid black;
+                    transition-duration: 0.5s;
+                }
+                    .item--1:hover, .item--1:focus{
+                    background-color:white;
+                    color: black;
+                    }
+
+                    .item--2{
+                    border-right: 6px solid black;
+                    transition-duration: 0.5s;
+                    }
+
+                    .item--2:hover, .item--2:focus{
+                    background-color:white;
+                    color: black;
+                    }
+
+                    .item--3{
+                    border-right: 0px;
+                    transition-duration: 0.5s;
+                    }
+
+                    .item--3:hover, .item--2:focus{
+                    background-color:white;
+                    color: black;
+                    }
+
+            .logo{
+                position: relative;
+                height: 25vh;
+                left: 10px;
+                margin-right: 30px;
+            }
+
+            .grillchill{
+                position: relative;
+                width: 100%;
+                text-align: center;
+                margin-right: 20px;
+                color: black;
+                font-weight: 1000;
+                font-size: 4.2rem;
+                font-family: "Sour Gummy", serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-variation-settings: "wdth" 100;
+            }
+
+            .deal{
+                height: 30vh;
+                background-image: url('../images/burgerbackground.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                position: relative;
+                display: flex;
+                align-items: center;
+            }
+
+            .free{
+                background-color: white;
+                color: black;
+                width: 45%;
+                height: 70%;
+                opacity: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                min-width: 350px;
+
+            }
+                .free h1{
+                    font-size: 3rem;
+                    font-weight: 80000;
+                    display: block;
+                    float: none;
+                    margin-bottom: 2px;
+                }
+
+                h2{
+                    font-size: 2rem;
+                    font-weight: 300;
+                    display: block;
+                    float: none;
+                    margin-bottom: 2px;
+
+                }
+
+                h3{
+                    font-size: 1.3rem;
+                    font-weight: 200;
+                    display: block;
+                    float: none;
+                    margin-bottom: 10px;
+                }
+
+                .button-1 {
+                    background-color: black; 
+                    color: white;            
+                    padding: 10px 20px;       
+                    font-size: 1.3rem;         
+                    font-weight: bold;       
+                    border-radius: 10px;       
+                    cursor: pointer;         
+                    transition-duration: 0.5s;
+                    border: 6px solid black;
+                    text-decoration: none;
+                }
+                
+                .button-1:hover, .button-1:active {
+                    background-color: white;
+                    color: black;
+                    border: 6px solid black;
+                    text-decoration: none;
+                }
+
+
+                .foot {
+                    position: fixed;
+                    bottom: 0;
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    width: 100%;
+                    }
+
+                .footer-item {
+                    display: flex;
+                    padding: 20px;
+                    height: 10px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+                    color: black;
+                    font-weight: 200;
+                    font-size: 1rem;
+                    border-top: 3px solid black;
+                }
+
+
+            .rest {
+                    margin-top: 40px;
+                    display: grid;
+                    grid-template-rows: 0.7fr 0.7fr 0.62fr 0.75fr;
+                    grid-row-gap: 40px;
+                    justify-content: center;
+            }
+
+                .rest-item{
+                    width: 85vw;
+                    box-shadow: 3px 3px 3px 3px rgb(144, 143, 143);
+                    background-color: rgb(240, 240, 240);
+                }
+
+                .rest-item--1{
+                    border: none;
+                    display: grid;
+                    grid-template-rows: 0.6fr 1fr 1fr 0.2fr;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: center;
+                    text-align: center;
+
+                }
+
+                .rest-item--1--1{
+                    grid-column: 1/5;
+                    grid-row: 1/1;
+                }
+
+                .rest-item--1--2{
+                    grid-column: 1/1;
+                    grid-row: 2;      
+                    justify-content: center;    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 10px;
+                }
+
+                .rest-item--1--3{
+                    grid-column: 2/2;
+                    grid-row: 2;
+                    justify-content: center;    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 10px;
+                }
+
+
+                .rest-item--1--4{
+                    grid-column: 1/1;
+                    grid-row: 3;
+                    justify-content: center;    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                }
+
+                .rest-item--1--5{
+                    grid-column: 2/2;
+                    grid-row: 3;
+                    justify-content: center;    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .rest-item--1--6{
+                    grid-column: 1/5;
+                    grid-row: 4;
+                    justify-content: center;
+                    display: flex;
+                }
+
+                .cheeseburger{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/cheeseburger.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .bbq{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/bbqburger.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .grilledcheese{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/grilledcheese.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .sodaglass{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/sodaglass.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+
+                .rest-item--2{
+                    border: none;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .stackedburger{
+                    height: 30vh;
+                    background-image: url('../images/stackedburger.jpg');
+                    background-repeat: no-repeat;
+                    background-position-y: -50px;
+                    background-size: 100%;
+                    max-height: 300px;
+                    margin-bottom: 10px;
+                }
+
+
+                .rest h4{
+                    font-size: 3rem;
+                    font-weight: 80000;
+                    display: block;
+                    float: none;
+                    margin-bottom: 2px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+
+                }
+
+                h5{
+                    font-size: 2rem;
+                    font-weight: 300;
+                    display: block;
+                    float: none;
+                    margin-bottom: 2px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+
+                h6{
+                    font-size: 1.3rem;
+                    font-weight: 200;
+                    display: block;
+                    float: none;
+                    margin-bottom: 20px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+
+                .button-2 {
+                    background-color: black; 
+                    color: white;            
+                    padding: 10px 20px;       
+                    font-size: 1.3rem;         
+                    font-weight: bold;       
+                    border-radius: 10px;       
+                    cursor: pointer;         
+                    transition-duration: 0.5s;
+                    border: 6px solid black;
+                    align-self: center;
+                    text-decoration: none;
+                    margin-bottom: 20px;
+                    width: 60%;
+                    text-align: center;
+                }
+
+                .button-2:hover, .button-2:active {
+                    background-color: white;
+                    color: black;
+                    border: 6px solid black;
+                    text-decoration: none;
+                }
+
+                .rest-item--3{
+                    border: none;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .grillburger{
+                    height: 30vh;
+                    background-image: url('../images/burgerongrill.jpg');
+                    background-repeat: no-repeat;
+                    background-position-y: -76px;
+                    background-size: 100%;
+                    max-height: 300px;
+                    margin-bottom: 10px;
+                }
+
+
+                .burger h4{
+                    font-size: 3rem;
+                    font-weight: 80000;
+                    display: block;
+                    float: none;
+                    margin-bottom: 2px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+
+                }
+
+                h5{
+                    font-size: 2rem;
+                    font-weight: 300;
+                    display: block;
+                    float: none;
+                    margin-bottom: 2px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+
+                .rest-item--4{
+                    border: none;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 9vh;
+                    text-align: center;
+                }
+
+                .location{
+                    height: 30vh;
+                    background-image: url('../images/location.jpg');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    max-height: 300px;
+                    margin-bottom: 10px;
+                }
+
+
+
+                .form{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 20px;
+                    text-align: left;
+                    font-size: 1.3rem;
+                    margin-right: 20px;
+                    border: none;
+                    margin-top: 10px;
+                }
+
+                    input{
+                        border: none;
+                        border-radius: 7px;
+                        height: 60px;
+                        margin-top: 7px;
+                        margin-bottom: 10px;
+                        text-indent: 10px;
+                        font-size: 1.3rem;
+                        border: white 2px solid;
+
+                    }
+
+                    label{
+                        margin-top: 15px;
+                    }
+
+
+                    input:hover,
+                    input:focus,
+                    textarea:hover,
+                    textarea:focus{
+                        border: black 2px solid;
+                        outline: none;
+                    }
+
+
+                    .button-3 {
+                        background-color: black; 
+                        color: white;            
+                        padding: 10px 20px;       
+                        font-size: 1.3rem;         
+                        font-weight: bold;       
+                        border-radius: 10px;       
+                        cursor: pointer;         
+                        transition-duration: 0.5s;
+                        border: 6px solid black;
+                        text-decoration: none;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                    }
+
+                    .button-3:hover, .button-3:active {
+                        background-color: white;
+                        color: black;
+                        border: 6px solid black;
+                        text-decoration: none;
+                    }
+
+
+
+                    .deal-1{
+                        height: 30vh;
+                        background-image: url('../images/burgerbackground.jpg');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .free-1{
+                        background-color: white;
+                        color: black;
+                        width: 80%;
+                        height: 60%;
+                        opacity: 90%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        min-width: 350px;
+
+                    }
+
+
+                    .free-1 h1{
+                        font-size: 2.6rem;
+                        font-weight: 10000;
+                        display: block;
+                        float: none;
+                        margin-bottom: 2px;
+                    }
+                            
+                    .free-1 h2{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        display: block;
+                        float: none;
+                        margin-bottom: 2px;
+                    }
+
+
+        .burger-main{
+        display: flex;
+        justify-content: center;
+        }
+
+            .burger {
+                margin-top: 40px;
+                display: grid;
+                grid-template-rows: 0.7fr 0.7fr 0.7fr 0.7fr;
+                grid-template-columns: 1fr;
+                grid-row-gap: 40px;
+                justify-content: center;
+
+                }
+
+                .burger-item{
+                    width: 85vw;
+                    box-shadow: 3px 3px 3px 3px rgb(144, 143, 143);
+                    background-color: rgb(240, 240, 240);
+                    justify-content: center;
+
+                }
+
+                        .burger-item--1{
+                            border: none;
+                            display: grid;
+                            grid-row: 1;
+                            grid-column: 1;
+                            grid-template-rows: 0.3fr 0.5fr 0.5fr;
+                            grid-template-columns: repeat(2, 1fr);
+                            align-items: center;
+                            text-align: center;
+                        }
+
+                        .burger-item--1--1{
+                            grid-column: 1/5;
+                            grid-row: 1/1;
+                            margin-top: 10px;
+                            margin-bottom: 20px;
+                        }
+            
+                        .burger-item--1--2{
+                            grid-column: 1/1;
+                            grid-row: 2;      
+                            justify-content: center;    
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+            
+                        .burger-item--1--3{
+                            grid-column: 2/2;
+                            grid-row: 2;
+                            justify-content: center;    
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+
+                        .burger-item--1--4{
+                            grid-column: 1/1;
+                            grid-row: 3;
+                            justify-content: center;    
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+
+                        .burger-item--1--5{
+                            grid-column: 2/2;
+                            grid-row: 3;
+                            justify-content: center;    
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+
+
+                .bbqburger{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/bbqburger.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+
+                .chickenburger1{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/chickenburger.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .grilledcheese{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/grilledcheese.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+
+                .burger-item--2{
+                    border: none;
+                    display: grid;
+                    grid-column: 1;
+                    grid-row: 2;
+                    grid-template-rows: 0.3fr 0.5fr 0.5fr;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: center;
+                    text-align: center;
+                }
+
+                .tomato{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/tomato.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .lettuce{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/lettuce.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .cheese{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/cheese.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .bacon{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/bacon.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .burger-item--3{
+                    border: none;
+                    display: grid;
+                    grid-column: 1;
+                    grid-row: 3;
+                    grid-template-rows: 0.3fr 0.5fr 0.5fr;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: center;
+                    text-align: center;
+                }
+
+
+                .water{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/water.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+
+                .beer{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/beer.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .wine{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/wine.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+
+
+
+                .burger-item--4{
+                    border: none;
+                    display: grid;
+                    grid-row: 4;
+                    grid-column: 1;
+
+                    grid-template-rows: 0.3fr 0.5fr 0.5fr;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 9vh;
+                }
+
+
+                .fries{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/fries.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .coleslaw{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/coleslaw.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .hushpuppies{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/hushpuppies.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .mac{
+                    width: 35vw;
+                    height: 17.5vh;
+                    background-image: url('../images/macncheese.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border: 2px solid black;
+                }
+
+                .deal-2{
+                    height: 30vh;
+                    background-image: url('../images/burgerbackground.jpg');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .free-2{
+                    background-color: white;
+                    color: black;
+                    width: 80%;
+                    height: 60%;
+                    opacity: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    min-width: 350px;
+
+                }
+
+
+                .deal-2 h1{
+                    font-size: 3rem;
+                    font-weight: 10000;
+                    display: block;
+                    float: none;
+                    margin-bottom: 2px;
+                }
+
+
+        .contact-main{
+            display: flex;
+            justify-content: center;
+        }
+
+                .contact {
+                    margin-top: 40px;
+                    display: grid;
+                    grid-template-rows: 0.7fr 0.4fr 0.7fr 0.8fr;
+                    grid-template-columns: 1fr;
+                    grid-row-gap: 40px;
+                    justify-content: center;
+
+                    }
+
+                    .contact-item{
+                    width: 85vw;
+                    box-shadow: 3px 3px 3px 3px rgb(144, 143, 143);
+                    background-color: rgb(240, 240, 240);
+                    justify-content: center;
+
+                    }
+
+                            .contact-item--1{
+                                border: none;
+                                display: grid;
+                                grid-row: 1;
+                                grid-column: 1;
+                                grid-template-rows: 0.3fr 0.5fr 0.5fr;
+                                grid-template-columns: repeat(2, 1fr);
+                                align-items: center;
+                                text-align: center;
+                            }
+                
+                            .contact-item--1--1{
+                                grid-column: 1/5;
+                                grid-row: 1/1;
+                                margin-top: 10px;
+                                margin-bottom: 20px;
+                            }
+                
+                            .contact-item--1--2{
+                                grid-column: 1/1;
+                                grid-row: 2;      
+                                justify-content: center;    
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin-bottom: 25px;
+                            }
+                
+                            .contact-item--1--3{
+                                grid-column: 2/2;
+                                grid-row: 2;
+                                justify-content: center;    
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin-bottom: 25px;
+                            }
+                
+                
+                            .contact-item--1--4{
+                                grid-column: 1/1;
+                                grid-row: 3;
+                                justify-content: center;    
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin-bottom: 25px;
+
+                
+                            }
+                
+                            .contact-item--1--5{
+                                grid-column: 2/2;
+                                grid-row: 3;
+                                justify-content: center;    
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin-bottom: 25px;
+                            }
+
+
+
+            
+                            .contact-item--1--6{
+                                grid-column: 1/5;
+                                grid-row: 1/1;
+                                margin-top: 10px;
+                                margin-bottom: 20px;
+
+                            }
+
+                            .contact-item--1--7{
+                                grid-column: 1/5;
+                                grid-row: 2/2;
+                                margin-top: 10px;
+                                margin-bottom: 20px;
+
+                            }
+
+                            .contact-item--1--8{
+                                grid-column: 1/5;
+                                grid-row: 3/3;
+                                margin-top: 10px;
+                                margin-bottom: 20px;
+                            }
+
+                            .contact-item--1--9{
+                                grid-column: 1/5;
+                                grid-row: 4/4;
+                                margin-top: 10px;
+                                margin-bottom: 20px;
+                            }
+
+
+
+                    .contact-item--2{
+                        border: none;
+                        display: grid;
+                        grid-column: 1;
+                        grid-row: 2;
+                        grid-template-rows: 0.3fr
+
+                    }
+                    .instagram{
+                        width: 35vw;
+                        height: 17.5vh;
+                        background-image: url('../images/insta.png');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        border-radius: 30px;
+                        
+                    }
+                    
+                    .instagram:hover{
+                        animation: grow 1s ease forwards;
+                    }
+                        
+                    @keyframes grow {
+                        0% {scale:1}
+                        100% {scale:1.05}
+                    }
+                        
+                    .fb{
+                        width: 35vw;
+                        height: 17.5vh;
+                        background-image: url('../images/facebook.png');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        border-radius: 30px;
+                    }
+                        
+                    .fb:hover{
+                        animation: grow 1s ease forwards;
+                    }
+                        
+                    @keyframes grow {
+                        0% {scale:1}
+                        100% {scale:1.05}
+                    }
+                    
+                    .tiktok{
+                        width: 35vw;
+                        height: 17.5vh;
+                        background-image: url('../images/tiktok.png');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        border-radius: 30px;
+                    }
+            
+                    .tiktok:hover{
+                        animation: grow 1s ease forwards;
+                    }
+                        
+                    @keyframes grow {
+                        0% {scale:1}
+                        100% {scale:1.05}
+                    }
+                        
+                    .twitter{
+                        width: 35vw;
+                        height: 17.5vh;
+                        background-image: url('../images/twittter.png');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        border-radius: 30px;
+                    }
+                    
+                    .twitter:hover{
+                        animation: grow 1s ease forwards;
+                    }
+                        
+                    @keyframes grow {
+                        0% {scale:1}
+                        100% {scale:1.05}
+                    }
+                        
+            
+                        
+                    .contact-item--3{
+                        border: none;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                    
+                    
+                    .emaillist{
+                        display: flex;
+                        justify-content: center;
+                    }
+                
+                        
+                        
+                    .contact-item--4{
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        flex-direction: column;
+                        margin-bottom: 8vh;
+                    }
+                    
+                    .contact h1{
+                        font-weight: bold;
+                        font-size: 2rem;
+                    }
+                    
+                    .contact h2{
+                        font-size: 2rem;
+                    }
+                    
+                    .contact h3{
+                        font-size: 3rem;
+                        font-weight: bold;
+                    
+                    }
+                        
+                    
+                    .contact h4{
+                        font-weight: bold;
+                        font-size: 2rem;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                    }
+                    
+                    .contact h5{
+                        font-size: 2rem;
+                        margin-bottom: 20px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                    }
+                    
+                    .contact h6{
+                        font-size: 1.5rem;
+                        font-weight: 100;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                    }
+@media screen and (min-width: 768px) {
+    .cheeseburger{
+        height: 20vw;
+    }
+    .bbq{
+        height: 20vw;
+    }
+    .grilledcheese{
+        height: 20vw;
+    }
+    .sodaglass{
+        height: 20vw;
+    }
+    .grillburger{
+        max-height: 1000px;
+        height: 25vw;
+    }
+    .location{
+        max-height: 1000px;
+        height: 25vw;
+    }
+    .stackedburger{
+        max-height: 1000px;
+        height: 25vw;
+    }
+    .bbqburger{
+        height: 20vw;
+    }
+    .chickenburger1{
+        height: 20vw;
+    }
+    .grilledcheese{
+        height: 20vw;
+    }
+    .tomato{
+        height: 20vw;
+    }
+    .lettuce{
+        height: 20vw;
+    }
+    .cheese{
+        height: 20vw;
+    }
+    .bacon{
+        height: 20vw;
+    }
+    .water{
+        height: 20vw;
+    }
+    .beer{
+        height: 20vw;
+    }
+    .wine{
+        height: 20vw;
+    }
+    .fries{
+        height: 20vw;
+    }
+    .hushpuppies{
+        height: 20vw;
+    }
+    .coleslaw{
+        height: 20vw;
+    }
+    .mac{
+        height: 20vw;
+    }
+    .twitter{
+        height: 20vw;
+    }
+    .instagram{
+        height: 20vw;
+    }
+    .tiktok{
+        height: 20vw;
+    }
+    .fb{
+        height: 20vw;
+    }
+    .rest-item--2{
+        justify-content: space-between;
+    }
+    .rest-item--3{
+        justify-content: space-between;
+    }
+    .rest-item--4{
+        justify-content: space-between;
+    }
+    .contact{
+        grid-template-rows: 0.7fr 0.4fr 0.5fr 0.6fr;
+    }
+    .contact-item--2{
+        justify-content: space-between;
+    }
+    .contact-item--3{
+        justify-content: space-between;
+    }
+    .contact-item--4{
+        justify-content: space-between;
+    }
+}
